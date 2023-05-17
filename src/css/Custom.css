@@ -1,0 +1,154 @@
+:root {
+  --primary-color: #14182C;
+  --secondary-color: #931786;
+  --text-color: #FFFFFF;
+}
+
+.secondar-color {
+  color: var(--secondary-color);
+}
+
+.btn {
+  background-color: var(--secondary-color) !important;
+  font-size: 18px !important;
+  text-transform: none !important;
+}
+
+.btn:hover {
+  background-color: #D822C5 !important;
+}
+/* <------- Navbar ------> */
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.nav-list {
+  height: 70px;
+  list-style: none;
+  color: var(--text-color);
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.lang {
+  height: 35px;
+  width: 35px;
+}
+
+/* <--------------------> */
+
+/* <------- Header ------> */
+.header {
+  height: 90vh;
+}
+
+.header-info {
+  height: 45vh;
+}
+
+.header-right {
+  width: 50%;
+}
+
+.header-left {
+  width: 50%;
+  position: relative;
+}
+
+.header-title {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.ball-1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: radial-gradient(#D40AE2, #9A0495);
+  animation: bounce-1 9s;
+  animation-iteration-count: infinite;
+  top: 150px;
+  left: 1050px;
+}
+
+.ball-2 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: radial-gradient(#9C0EBF, #9904DB);
+  animation: bounce-2 9.5s;
+  animation-iteration-count: infinite;
+  top: 200px;
+  left: 1175px;
+}
+
+.ball-3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: radial-gradient(#D316C0, #9A02A5);
+  animation: bounce-3 10s;
+  animation-iteration-count: infinite;
+  top: 250px;
+  left: 1300px;
+}
+
+.w-33 {
+  width: 33%;
+}
+/* <--------------------> */
+
+/* <------- About me ------> */
+
+.aboutme-img {
+  height: 40vh;
+}
+
+/* <--------------------> */
+
+/* <------- Keyframes ------> */
+@keyframes bounce-1 {
+	0% {
+    top: 150px;
+  }
+  50% {
+    top: 200px;
+  }
+  100% {
+    top: 150px;
+  }
+
+}
+
+@keyframes bounce-2 {
+	0% {
+    top: 200px;
+  }
+  50% {
+    top: 250px;
+  }
+  100% {
+    top: 200px;
+  }
+
+}
+
+@keyframes bounce-3 {
+	0% {
+    top: 250px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    top: 250px;
+  }
+
+}
+/* <--------------------> */
