@@ -17,6 +17,7 @@
 .btn:hover {
   background-color: #D822C5 !important;
 }
+
 /* <------- Navbar ------> */
 .logo {
   height: 70px;
@@ -109,6 +110,11 @@
 .aboutme-img {
   height: 40vh;
 }
+
+/* <--------------------> */
+
+/* <------- Tech stack ------> */
+
 
 /* <--------------------> */
 
