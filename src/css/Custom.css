@@ -18,6 +18,10 @@
   background-color: #D822C5 !important;
 }
 
+.w-35 {
+  width: 35%;
+}
+
 /* <------- Navbar ------> */
 .logo {
   height: 70px;
@@ -100,9 +104,7 @@
   left: 1300px;
 }
 
-.w-33 {
-  width: 33%;
-}
+
 /* <--------------------> */
 
 /* <------- About me ------> */
@@ -113,10 +115,17 @@
 
 /* <--------------------> */
 
-/* <------- Tech stack ------> */
+/* <------- Portfolio ------> */
 
+.projectimg {
+  height: 250px;
+  width: 560px;
+  object-fit: contain;
+}
 
 /* <--------------------> */
+
+
 
 /* <------- Keyframes ------> */
 @keyframes bounce-1 {

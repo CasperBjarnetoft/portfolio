@@ -18,6 +18,8 @@ import mongodb from '../img/mongodb.svg'
 import postman from '../img/postman.svg'
 import visualstudicode from '../img/visualstudiocode.svg'
 import visualstudio from '../img/visualstudio.svg'
+import dentist from '../img/dentist.png'
+import game from '../img/game.png'
 
 
 export const PortfolioSwe = () => {
@@ -31,7 +33,7 @@ export const PortfolioSwe = () => {
 
         <ul className='d-flex nav-list align-items-center'>
           <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
-          <li className='p-2 nav-item'><a href='/' className='text-light'>Projekts</a></li>
+          <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
           <li className='p-2 nav-item'><a href='/' className='text-light'>Kontakta Mig</a></li>
           <Link to="/"><img className='lang p-2 nav-item' src= {swedish} alt='logo'></img></Link>
         </ul>
@@ -39,7 +41,7 @@ export const PortfolioSwe = () => {
        </div>
       </nav>
 
-      <div className='header '>
+      <div className='header'>
 
         <div className='header-info align-items-center d-flex'>
           <div className='header-left'>
@@ -110,6 +112,45 @@ export const PortfolioSwe = () => {
         </div>
       </div>
 
+      <div id='portfolio' className='mt-5 mb-5 p-1'>
+        <h1 className='text-light mb-5 mt-4 text-center'>Portfolio</h1>
+        <div className='d-flex justify-content-center'>
+          <img className='projectimg' src={dentist} alt="" />
+          <div className='text-light p-1 ms-3 w-35'>
+            <h3>Landningssida</h3>
+            <p>Projekt från skola där jag har byggt en simpel och snygg landningssida för ett företag eller frilansare. Som är responsiv.</p>
+            <div className='d-flex text-center'>
+              <h5>HTML</h5>
+              <h5 className='ms-4'>CSS</h5>
+            </div>
+            <div className='mt-4'>
+              <Link to='https://github.com/CasperBjarnetoft/html-css-inlupp1' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Kod</button></Link>
+              <Link to='https://casperbjarnetoft.github.io/html-css-inlupp1/' target='_blank'><button className='mt-2 ms-2 btn bg-secondar-color text-light'><i class="fa-solid fa-up-right-from-square fa-sm me-2"></i>Demo</button></Link>
+            </div>
+          </div>
+        </div>
+
+        <div className='d-flex mt-5 justify-content-center'> 
+          <div className='text-light p-1 ms-3 w-35'>
+            <div>
+              <h3>Sten Sax Påse</h3>
+              <p>Har byggt spelet sten sax påse med poängen och oändligt med rundor. Som har en simpel och responsiv design.</p>
+              <div className='d-flex text-center'>
+                <h5>HTML</h5>
+                <h5 className='ms-4'>CSS</h5>
+                <h5 className='ms-4'>Javascript</h5>
+                <h5 className='ms-4'>Bootstrap</h5>
+              </div>
+              <div className='mt-4'>
+                <Link to='https://github.com/CasperBjarnetoft/onlinegame' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Kod</button></Link>
+                <Link to='https://casperbjarnetoft.github.io/onlinegame/' target='_blank'><button className='mt-2 ms-2 btn bg-secondar-color text-light'><i class="fa-solid fa-up-right-from-square fa-sm me-2"></i>Demo</button></Link>
+              </div>
+            </div>
+          </div>
+          <img className='projectimg' src={game} alt="" />
+        </div>
+
+      </div>
     </div>
   )
 }
