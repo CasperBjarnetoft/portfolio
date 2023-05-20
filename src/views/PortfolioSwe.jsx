@@ -34,7 +34,7 @@ export const PortfolioSwe = () => {
         <ul className='d-flex nav-list align-items-center'>
           <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
           <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
-          <li className='p-2 nav-item'><a href='/' className='text-light'>Kontakta Mig</a></li>
+          <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
           <Link to="/"><img className='lang p-2 nav-item' src= {swedish} alt='logo'></img></Link>
         </ul>
 
@@ -49,8 +49,8 @@ export const PortfolioSwe = () => {
             <p className='text-light header-text'>Hej jag heter Casper och är utbildad frontend utvecklare. Jag jobbar som systemutvecklare på Black AA AB i Västerås.</p>
             
             <div className='d-flex pt-2'>
-              <i className="pe-2 fa-brands fa-linkedin fa-2xl text-light"></i>
-              <i className="ps-2 fa-brands fa-github fa-2xl text-light"></i>
+              <Link to='https://www.linkedin.com/in/casper-bjarnetoft/' target='_blank' ><i className="pe-2 fa-brands fa-linkedin fa-2xl text-light"></i></Link>
+              <Link to='https://github.com/CasperBjarnetoft' target='_blank' ><i className="ps-2 fa-brands fa-github fa-2xl text-light"></i></Link>
             </div>
           </div>
 
@@ -148,6 +148,29 @@ export const PortfolioSwe = () => {
             </div>
           </div>
           <img className='projectimg' src={game} alt="" />
+        </div>
+
+      </div>
+
+      <div id='footer' className='footer mt-4 mb-5'>
+        <h1 className='text-light mt-4'>Kontakta Mig</h1>
+        
+        <div className='d-flex'>
+          <div className='w-50 text-light'>
+            <p>Om jag låter som en intressant utvecklare som ni vill anställa eller bolla idéer med? Så hör av er!!!</p>
+            <p>Email: casper.ason@hotmail.se</p>
+
+            <div className='d-flex pt-2'>
+                <Link to='https://www.linkedin.com/in/casper-bjarnetoft/' target='_blank' ><i className="pe-2 fa-brands fa-linkedin fa-2xl text-light"></i></Link>
+                <Link to='https://github.com/CasperBjarnetoft' target='_blank' ><i className="ps-2 fa-brands fa-github fa-2xl text-light"></i></Link>
+            </div>
+          </div>
+
+          <div className='w-50 text-center'>
+            <h1 className='text-light'>Casper Bjarnetoft</h1>
+            <h5 className='secondar-color'>Frontend och system utvecklare</h5>
+
+          </div>
         </div>
 
       </div>
