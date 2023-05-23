@@ -61,10 +61,10 @@ export const PortfolioSwe = () => {
           </div>
         </div>
 
-        <div className='header-info d-flex'>
+        <div className='header-about about d-flex'>
           <img className='aboutme-img' src={aboutme} alt="" />
 
-          <div className='ms-4 text-light'>
+          <div className='ms-4 about-text text-light'>
             <h1>Om mig</h1>
             <p>Mitt namn är Casper Bjarnetoft och  jag utbildar mig till frontend utvecklare på EC utbildning i Västerås. Jag jobbar som system utvecklare på Black AA AB i västerås.</p>
             <p>Jag är en drivande, noggrann och ordningsam person som gillar problemlösning och utmaningar. Jag ser både problemlösning och utmaningar som ett sätt att utvecklas inom arbetsrollen. Jag kan jobba bra både självständigt och i grupp. Jag gillar när arbetet är bra strukturerat och man har tydliga mål.</p>
@@ -114,7 +114,7 @@ export const PortfolioSwe = () => {
 
       <div id='portfolio' className='mt-5 mb-5 p-1'>
         <h1 className='text-light mb-5 mt-4 text-center'>Portfolio</h1>
-        <div className='d-flex justify-content-center'>
+        <div className='portfolio-item d-flex justify-content-center'>
           <img className='projectimg' src={dentist} alt="" />
           <div className='text-light p-1 ms-3 w-35'>
             <h3>Landningssida</h3>
@@ -130,7 +130,8 @@ export const PortfolioSwe = () => {
           </div>
         </div>
 
-        <div className='d-flex mt-5 justify-content-center'> 
+        <div className='portfolio-item d-flex mt-5 justify-content-center'>
+          <img className='projectimg small-display' src={game} alt="" /> 
           <div className='text-light p-1 ms-3 w-35'>
             <div>
               <h3>Sten Sax Påse</h3>
@@ -147,7 +148,7 @@ export const PortfolioSwe = () => {
               </div>
             </div>
           </div>
-          <img className='projectimg' src={game} alt="" />
+          <img className='projectimg big-display' src={game} alt="" />
         </div>
 
       </div>

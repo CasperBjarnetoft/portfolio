@@ -110,6 +110,10 @@
 
 /* <------- About me ------> */
 
+.header-about {
+  height: 45vh;
+}
+
 .aboutme-img {
   height: 40vh;
 }
@@ -121,8 +125,16 @@
 .projectimg {
   height: 250px;
   width: 560px;
-  object-fit: contain;
+  object-fit: cover;
 }
+
+.big-display {
+  display: block;
+}
+
+.small-display {
+  display: none;
+} 
 
 /* <--------------------> */
 
@@ -173,3 +185,63 @@
 
 }
 /* <--------------------> */
+
+/* <------- Media querys ------> */
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 70vh;
+  }
+
+  .header-info {
+    height: 35vh;
+  }
+
+  .header-left {
+    width: 100%;
+  }
+  
+  .ball-1 {
+    display: none;
+  }
+  
+  .ball-2 {
+    display: none;
+  }
+  
+  .ball-3 {
+    display: none;
+  }
+
+  .aboutme-img {
+   display: none;
+  }
+
+  .header-about {
+    display: block;
+    height: 35vh !important;
+  }
+
+  .about-text {
+    margin-left: 0 !important;
+  } 
+
+  .portfolio-item {
+    display: block !important;
+  }
+
+  .w-35 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .big-display {
+  display: none;
+  } 
+
+  .small-display {
+  display: block;
+  } 
+}
+
+/* <--------------------> */
+
