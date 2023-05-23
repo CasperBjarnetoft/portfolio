@@ -244,6 +244,23 @@
 }
 
 @media only screen and (max-width: 425px) {
+  .header-title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .header {
+    height: 90vh;
+  }
+
+  .header-info {
+    height: 45vh;
+  }
+
+  .header-about {
+    height: 45vh !important;
+  }
+
   .projectimg {
     height: 250px;
     width: 425px;
