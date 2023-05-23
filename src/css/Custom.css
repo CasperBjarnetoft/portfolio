@@ -249,9 +249,10 @@
   }
   
   .nav-list {
+    padding: 0 !important;
     width: 100%;
   }
-  
+
   .header-title {
     font-size: 36px;
     font-weight: 700;
