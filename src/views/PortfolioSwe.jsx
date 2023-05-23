@@ -167,7 +167,7 @@ export const PortfolioSwe = () => {
             </div>
           </div>
 
-          <div className='w-50 text-center'>
+          <div className='w-50 text-center me'>
             <h1 className='text-light'>Casper Bjarnetoft</h1>
             <h5 className='secondar-color'>Frontend och system utvecklare</h5>
 

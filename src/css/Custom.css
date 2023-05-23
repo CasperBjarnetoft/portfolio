@@ -275,6 +275,14 @@
     width: 300px;
     object-fit: cover;
   }
+
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .me {
+    display: none;
+  }
 }
 
 
