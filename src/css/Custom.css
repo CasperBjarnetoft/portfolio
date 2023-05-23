@@ -262,6 +262,10 @@
     height: 110vh;
   }
 
+  .header-left {
+    width: 100%;
+  }
+
   .header-info {
     height: 55vh;
   }
