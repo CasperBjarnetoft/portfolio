@@ -250,20 +250,20 @@
   }
 
   .header {
-    height: 90vh;
+    height: 110vh;
   }
 
   .header-info {
-    height: 45vh;
+    height: 55vh;
   }
 
   .header-about {
-    height: 45vh !important;
+    height: 55vh !important;
   }
 
   .projectimg {
-    height: 250px;
-    width: 425px;
+    height: 200px;
+    width: 350px;
     object-fit: cover;
   }
 }
