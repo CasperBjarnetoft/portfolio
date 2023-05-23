@@ -267,6 +267,7 @@
   }
 
   .header-info {
+    display: block !important;
     height: 55vh;
   }
 
