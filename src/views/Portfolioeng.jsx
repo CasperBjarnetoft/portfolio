@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/Custom.css'
 import favicon from '../img/favicon.png'
-import english from '../img/flageng.png'
+import swedish from '../img/svenska.png'
 import aboutme from '../img/ommig.jpg'
 import html5 from '../img/html5.svg'
 import css3 from '../img/css3.svg'
@@ -22,7 +22,7 @@ import dentist from '../img/dentist.png'
 import game from '../img/game.png'
 
 
-export const PortfolioSwe = () => {
+export const Portfolioeng = () => {
   return (
     <div>
 
@@ -32,10 +32,10 @@ export const PortfolioSwe = () => {
        <div className='d-flex align-items-center'>
 
         <ul className='d-flex nav-list align-items-center'>
-          <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
-          <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
-          <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
-          <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
+          <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Tech stack</a></li>
+          <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projects</a></li>
+          <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Contact me</a></li>
+          <Link to="/"><img className='lang p-2 nav-item' src= {swedish} alt='logo'></img></Link>
         </ul>
 
        </div>
@@ -45,8 +45,8 @@ export const PortfolioSwe = () => {
 
         <div className='header-info align-items-center d-flex'>
           <div className='header-left'>
-            <h1 className='text-light header-title'>Frontend och System Utvecklare</h1>
-            <p className='text-light header-text'>Hej jag heter Casper och är utbildad frontend utvecklare. Jag jobbar som systemutvecklare på Black AA AB i Västerås.</p>
+            <h1 className='text-light header-title'>Frontend and System Developer</h1>
+            <p className='text-light header-text'>Hello i am Casper and i have degree in frontend developer. i work as a system developer at Black AA AB in Västerås.</p>
             
             <div className='d-flex pt-2'>
               <Link to='https://www.linkedin.com/in/casper-bjarnetoft/' target='_blank' ><i className="pe-2 fa-brands fa-linkedin fa-2xl text-light"></i></Link>
@@ -65,17 +65,17 @@ export const PortfolioSwe = () => {
           <img className='aboutme-img' src={aboutme} alt="" />
 
           <div className='ms-4 about-text text-light'>
-            <h1>Om mig</h1>
-            <p>Mitt namn är Casper Bjarnetoft och  jag utbildar mig till frontend utvecklare på EC utbildning i Västerås. Jag jobbar som system utvecklare på Black AA AB i västerås.</p>
-            <p>Jag är en drivande, noggrann och ordningsam person som gillar problemlösning och utmaningar. Jag ser både problemlösning och utmaningar som ett sätt att utvecklas inom arbetsrollen. Jag kan jobba bra både självständigt och i grupp. Jag gillar när arbetet är bra strukturerat och man har tydliga mål.</p>
-            <button className='mt-2 btn bg-secondar-color text-light'>Kolla in mina projekt</button>
+            <h1>About me</h1>
+            <p>My name is Casper Bjarnetoft and I have degree as a frontend developer at EC Utbildning in Västerås. I work as a system developer at Black AA AB in Västerås.</p>
+            <p>I am a driven, accurate and orderly person who likes problem solving and challenges. I see both problem solving and challenges as a way to develop within the work role. I can work well both independently and in a group. I like when the work is well structured and you have clear goals.</p>
+            <button className='mt-2 btn bg-secondar-color text-light'>Check out my projects</button>
           </div>
         </div>
 
       </div>
       
       <div className='mb-4' id='techstack'>
-        <h1 className='text-light text-center mt-4'>Kunskaper</h1>
+        <h1 className='text-light text-center mt-4'>Tech stack</h1>
         <div className='row text-center'>
           <div className='col-md mt-2 p-1'>
             <h3 className='secondar-color'>Frontend</h3>
@@ -99,7 +99,7 @@ export const PortfolioSwe = () => {
           </div>
 
           <div className='col-md mt-2 p-1'>
-            <h3 className='secondar-color'>Redskap</h3>
+            <h3 className='secondar-color'>Tools</h3>
             <div>
               <img src={bootstrap} alt="html" />
               <img className='ms-3' src={mongodb} alt="html" />
@@ -117,14 +117,14 @@ export const PortfolioSwe = () => {
         <div className='portfolio-item d-flex justify-content-center'>
           <img className='projectimg' src={dentist} alt="" />
           <div className='text-light p-1 ms-3 w-35'>
-            <h3>Landningssida</h3>
-            <p>Projekt från skola där jag har byggt en simpel och snygg landningssida för ett företag eller frilansare. Som är responsiv.</p>
+            <h3>Landing page</h3>
+            <p>Project from school where I have built a simple and stylish landing page for a company or freelancer. Which is responsive.</p>
             <div className='d-flex text-center'>
               <h5>HTML</h5>
               <h5 className='ms-4'>CSS</h5>
             </div>
             <div className='mt-4'>
-              <Link to='https://github.com/CasperBjarnetoft/html-css-inlupp1' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Kod</button></Link>
+              <Link to='https://github.com/CasperBjarnetoft/html-css-inlupp1' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Code</button></Link>
               <Link to='https://casperbjarnetoft.github.io/html-css-inlupp1/' target='_blank'><button className='mt-2 ms-2 btn bg-secondar-color text-light'><i class="fa-solid fa-up-right-from-square fa-sm me-2"></i>Demo</button></Link>
             </div>
           </div>
@@ -134,8 +134,8 @@ export const PortfolioSwe = () => {
           <img className='projectimg small-display' src={game} alt="" /> 
           <div className='text-light p-1 ms-3 w-35'>
             <div>
-              <h3>Sten Sax Påse</h3>
-              <p>Har byggt spelet sten sax påse med poängen och oändligt med rundor. Som har en simpel och responsiv design.</p>
+              <h3>Rock Paper Scissors</h3>
+              <p>Have built the game rock paper scissors with points and infinite of rounds. Which has a simple and responsive design.</p>
               <div className='d-flex text-center'>
                 <h5>HTML</h5>
                 <h5 className='ms-4'>CSS</h5>
@@ -143,7 +143,7 @@ export const PortfolioSwe = () => {
                 <h5 className='ms-4'>Bootstrap</h5>
               </div>
               <div className='mt-4'>
-                <Link to='https://github.com/CasperBjarnetoft/onlinegame' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Kod</button></Link>
+                <Link to='https://github.com/CasperBjarnetoft/onlinegame' target='_blank'><button className='mt-2 btn bg-secondar-color text-light'><i className="fa-brands fa-github fa-lg text-light me-2"></i>Code</button></Link>
                 <Link to='https://casperbjarnetoft.github.io/onlinegame/' target='_blank'><button className='mt-2 ms-2 btn bg-secondar-color text-light'><i class="fa-solid fa-up-right-from-square fa-sm me-2"></i>Demo</button></Link>
               </div>
             </div>
@@ -158,7 +158,7 @@ export const PortfolioSwe = () => {
         
         <div className='d-flex'>
           <div className='w-50 text-light'>
-            <p>Om jag låter som en intressant utvecklare som ni vill anställa eller bolla idéer med? Så hör av er!!!</p>
+            <p>If I sound like an interesting developer that you want to hire or brainstorm with? So get in touch!!!</p>
             <p>Email: casper.ason@hotmail.se</p>
 
             <div className='d-flex pt-2'>
@@ -169,7 +169,7 @@ export const PortfolioSwe = () => {
 
           <div className='w-50 text-center me'>
             <h1 className='text-light'>Casper Bjarnetoft</h1>
-            <h5 className='secondar-color'>Frontend och system utvecklare</h5>
+            <h5 className='secondar-color'>Frontend and System Developer</h5>
 
           </div>
         </div>
@@ -179,4 +179,4 @@ export const PortfolioSwe = () => {
   )
 }
 
-export default PortfolioSwe;
+export default Portfolioeng;
