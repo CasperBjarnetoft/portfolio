@@ -259,7 +259,7 @@
   }
 
   .header {
-    height: 70vh;
+    height: 90vh;
   }
 
   .header-left {
@@ -268,11 +268,11 @@
 
   .header-info {
     display: block !important;
-    height: 35vh;
+    height: 45vh;
   }
 
   .header-about {
-    height: 35vh !important;
+    height: 45vh !important;
   }
 
   .projectimg {
