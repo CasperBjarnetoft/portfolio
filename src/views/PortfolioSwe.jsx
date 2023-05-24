@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/Custom.css'
+import '../Javascript/script.js'
 import favicon from '../img/favicon.png'
 import english from '../img/flageng.png'
 import aboutme from '../img/ommig.jpg'
@@ -31,12 +32,19 @@ export const PortfolioSwe = () => {
 
        <div className='d-flex align-items-center'>
 
-        <ul className='d-flex nav-list align-items-center'>
+        <ul className='d-flex nav-computer nav-list align-items-center'>
           <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
           <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
           <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
           <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
         </ul>
+
+        
+        <button id='modalBtn' className="modalbutton"><i id='modalBtn' className="fa-solid fa-bars"></i></button>
+
+        <div className='modalnav' id='simpleModal'>
+          <h1>hello</h1>
+        </div>
 
        </div>
       </nav>
