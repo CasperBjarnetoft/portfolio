@@ -34,12 +34,6 @@
   color: var(--text-color);
 }
 
-.modalnav {
-  width: 375px;
-  position: absolute;
-  background-color: var(--primary-color);
-}
-
 .nav-item:hover {
   border-bottom: 2px solid var(--secondary-color);
 }
@@ -49,8 +43,8 @@
   width: 35px;
 }
 
-.modalbutton {
-  display: none;
+.nav-mobile {
+  display: none !important;
 }
 
 
@@ -261,17 +255,21 @@
   .logo {
     display: none;
   }
+
+  .logo-mobile {
+    display: block;
+    height: 35px;
+    width: 35px;
+  }
   
   .nav-list {
     display: none !important;
   }
 
-  .modalbutton {
-    display: block;
-    background: transparent;
-    border: none;
+  .nav-mobile {
+    display: flex !important;
   }
-  
+
   .fa-bars {
     color: var(--text-color);
   }

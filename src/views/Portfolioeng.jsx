@@ -41,6 +41,36 @@ export const Portfolioeng = () => {
        </div>
       </nav>
 
+      <nav className='p-1 d-flex flex-row nav-mobile justify-content-between'>
+        
+        <div className='w-25'>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
+            <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
+            <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
+          </div>
+        </div>
+    
+        </div>
+
+        <div className='w-25 d-flex align-items-center'>
+          <Link to="/english"><img className='lang p-2 nav-item' src= {swedish} alt='logo'></img></Link>
+          <Link to="/"><img className='logo-mobile' src= {favicon} alt='logo'></img></Link>
+        </div>
+      </nav>
+
       <div className='header'>
 
         <div className='header-info align-items-center d-flex'>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../css/Custom.css'
-import '../Javascript/script.js'
 import favicon from '../img/favicon.png'
 import english from '../img/flageng.png'
 import aboutme from '../img/ommig.jpg'
@@ -39,15 +38,40 @@ export const PortfolioSwe = () => {
           <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
         </ul>
 
-        
-        <button id='modalBtn' className="modalbutton"><i id='modalBtn' className="fa-solid fa-bars"></i></button>
+       </div>
 
-        <div className='modalnav' id='simpleModal'>
-          <h1>hello</h1>
+      </nav>
+
+      <nav className='p-1 d-flex flex-row nav-mobile justify-content-between'>
+        
+        <div className='w-25'>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
+            <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
+            <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
+          </div>
+        </div>
+    
         </div>
 
-       </div>
+        <div className='w-25 d-flex align-items-center'>
+          <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
+          <Link to="/"><img className='logo-mobile' src= {favicon} alt='logo'></img></Link>
+        </div>
       </nav>
+
 
       <div className='header'>
 
