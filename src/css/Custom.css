@@ -34,6 +34,12 @@
   color: var(--text-color);
 }
 
+.modalnav {
+  width: 375px;
+  position: absolute;
+  background-color: var(--primary-color);
+}
+
 .nav-item:hover {
   border-bottom: 2px solid var(--secondary-color);
 }
