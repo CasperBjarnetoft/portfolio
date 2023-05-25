@@ -66,7 +66,7 @@ export const PortfolioSwe = () => {
     
         </div>
 
-        <div className='w-25 d-flex align-items-center'>
+        <div className='w-25 d-flex align-items-top'>
           <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
           <Link to="/"><img className='logo-mobile' src= {favicon} alt='logo'></img></Link>
         </div>
