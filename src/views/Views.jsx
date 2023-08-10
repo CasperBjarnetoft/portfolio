@@ -8,7 +8,7 @@ const Views = () => {
   return (
     <Routes >
       <Route path='/' element={ <PortfolioSwe />} />
-      <Route path='/english' element={ <Portfolioeng />} />
+      <Route path='/english/' element={ <Portfolioeng />} />
     </Routes>
   )
 }

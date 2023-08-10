@@ -32,9 +32,9 @@ export const Portfolioeng = () => {
        <div className='d-flex align-items-center'>
 
         <ul className='d-flex nav-list align-items-center'>
-          <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Tech stack</a></li>
-          <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projects</a></li>
-          <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Contact me</a></li>
+          <li className='p-2 nav-item'><a href='/english/#techstack' className='text-light'>Tech stack</a></li>
+          <li className='p-2 nav-item'><a href='/english/#portfolio' className='text-light'>Projects</a></li>
+          <li className='p-2 nav-item'><a href='/english/#footer' className='text-light'>Contact me</a></li>
           <Link to="/"><img className='lang p-2 nav-item' src= {swedish} alt='logo'></img></Link>
         </ul>
 
@@ -57,9 +57,9 @@ export const Portfolioeng = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
-            <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
-            <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
+            <li className='p-2 nav-item'><a href='/english/#techstack' className='text-light'>Tech stack</a></li>
+            <li className='p-2 nav-item'><a href='/english/#portfolio' className='text-light'>Projects</a></li>
+            <li className='p-2 nav-item'><a href='/english/#footer' className='text-light'>Contact me</a></li>
           </div>
         </div>
     
@@ -184,7 +184,7 @@ export const Portfolioeng = () => {
       </div>
 
       <div id='footer' className='footer mt-4 mb-5'>
-        <h1 className='text-light mt-4'>Kontakta Mig</h1>
+        <h1 className='text-light mt-4'>Contact me</h1>
         
         <div className='d-flex'>
           <div className='w-50 text-light'>

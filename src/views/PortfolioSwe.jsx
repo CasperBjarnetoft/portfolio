@@ -35,7 +35,7 @@ export const PortfolioSwe = () => {
           <li className='p-2 nav-item'><a href='/#techstack' className='text-light'>Kunskaper</a></li>
           <li className='p-2 nav-item'><a href='/#portfolio' className='text-light'>Projekts</a></li>
           <li className='p-2 nav-item'><a href='/#footer' className='text-light'>Kontakta Mig</a></li>
-          <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
+          <Link to="/english/"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
         </ul>
 
        </div>
@@ -67,7 +67,7 @@ export const PortfolioSwe = () => {
         </div>
 
         <div className='w-25 d-flex align-items-top'>
-          <Link to="/english"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
+          <Link to="/english/"><img className='lang p-2 nav-item' src= {english} alt='logo'></img></Link>
           <Link to="/"><img className='logo-mobile' src= {favicon} alt='logo'></img></Link>
         </div>
       </nav>
